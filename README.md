@@ -56,6 +56,7 @@ I’m a passionate software developer with a focus on Machine Learning, Python d
 
 | Project Name | Description | Technologies | Live Link / GitHub Link |
 |--------------|-------------|--------------|-------------------------|
+| [Superior Academic tool](https://hadithbot.marveloussoft.tech/) | A website developed to process timetable for students and teacher's ease. | Python, Flask | [Live Link](https://superior-academic-tool.onrender.com/) |
 | [Hadith Explorer Chatbot](https://hadithbot.marveloussoft.tech/) | A chatbot that helps users explore Hadiths with AI-based interaction. | Python, Flask, AI | [Live Link](https://hadithbot.marveloussoft.tech/) |
 | [Face Profiling](https://github.com/RasikhAli/Bitlogicx/tree/main/7.%20Face%20Profiling) | AI-based personality prediction from facial features using image processing. | OpenCV, Python, Flask | [GitHub](https://github.com/RasikhAli/Bitlogicx/tree/main/7.%20Face%20Profiling) |
 | [Sarcasm Detection in Headlines](https://github.com/RasikhAli/Sarcasm-Detection) | AI model to detect sarcasm in news headlines using NLP techniques. | Python, TensorFlow, NLP | [GitHub](https://github.com/RasikhAli/Sarcasm-Detection) |
