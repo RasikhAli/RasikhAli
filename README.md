@@ -139,8 +139,307 @@ Strong research background in **Natural Language Processing (NLP)** and intellig
 # 📌 Latest Public Repositories
 
 <!-- LATEST_REPOS_START -->
+### 📌 RasikhAli
 
-<!-- LATEST_REPOS_END -->
+  No description provided
+  
+  **Tech Stack:** N/A
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/RasikhAli
+  
+  ---
+  
+  ### 📌 JazzCashMCP
+
+  Open-source Model Context Protocol (MCP) server for JazzCash — Pakistan's largest mobile-money platform. Hosted Checkout, Mobile Wallet charges, inquiries, and refunds for AI agents.
+  
+  **Tech Stack:** N/A
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/JazzCashMCP
+  
+  ---
+  
+  ### 📌 Superior-Academic-Tool
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Superior-Academic-Tool
+  
+  ---
+  
+  ### 📌 Superior---Automated-Folder-Files-Manager
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Superior---Automated-Folder-Files-Manager
+  
+  ---
+  
+  ### 📌 Bulk-Git-Repo-Downloader
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Bulk-Git-Repo-Downloader
+  
+  ---
+  
+  ### 📌 CinebyHub
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/CinebyHub
+  
+  ---
+  
+  ### 📌 RasikhAli.github.io
+
+  No description provided
+  
+  **Tech Stack:** HTML
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/RasikhAli.github.io
+  
+  ---
+  
+  ### 📌 Ramadan-Tracker
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Ramadan-Tracker
+  
+  ---
+  
+  ### 📌 AgentX-FinTech-AI-Wrapper
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/AgentX-FinTech-AI-Wrapper
+  
+  ---
+  
+  ### 📌 Property-Information-Extractor
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Property-Information-Extractor
+  
+  ---
+  
+  ### 📌 Tic-Tac-Toe-Web-App
+
+  No description provided
+  
+  **Tech Stack:** HTML
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Tic-Tac-Toe-Web-App
+  
+  ---
+  
+  ### 📌 House-Price-Prediction-Web-App
+
+  No description provided
+  
+  **Tech Stack:** N/A
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/House-Price-Prediction-Web-App
+  
+  ---
+  
+  ### 📌 SLM-Mini-Chatbot
+
+  No description provided
+  
+  **Tech Stack:** Python
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/SLM-Mini-Chatbot
+  
+  ---
+  
+  ### 📌 admission-voice-bot
+
+  No description provided
+  
+  **Tech Stack:** HTML
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/admission-voice-bot
+  
+  ---
+  
+  ### 📌 Moon-Wallpaper-Generator
+
+  No description provided
+  
+  **Tech Stack:** JavaScript
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Moon-Wallpaper-Generator
+  
+  ---
+  
+  ### 📌 Sarcasm-Detection
+
+  No description provided
+  
+  **Tech Stack:** Jupyter Notebook
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Sarcasm-Detection
+  
+  ---
+  
+  ### 📌 YETP
+
+  No description provided
+  
+  **Tech Stack:** PHP
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/YETP
+  
+  ---
+  
+  ### 📌 QRApp
+
+  No description provided
+  
+  **Tech Stack:** Java
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/QRApp
+  
+  ---
+  
+  ### 📌 AttendanceSystem
+
+  No description provided
+  
+  **Tech Stack:** Java
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/AttendanceSystem
+  
+  ---
+  
+  ### 📌 AminMaktab
+
+  No description provided
+  
+  **Tech Stack:** Java
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/AminMaktab
+  
+  ---
+  
+  ### 📌 MOJO
+
+  No description provided
+  
+  **Tech Stack:** N/A
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/MOJO
+  
+  ---
+  
+  ### 📌 TicTacToe
+
+  No description provided
+  
+  **Tech Stack:** C++
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/TicTacToe
+  
+  ---
+  
+  ### 📌 Shopko
+
+  No description provided
+  
+  **Tech Stack:** Java
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/Shopko
+  
+  ---
+  
+  ### 📌 HousingPricePrediction
+
+  No description provided
+  
+  **Tech Stack:** Jupyter Notebook
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/HousingPricePrediction
+  
+  ---
+  
+  ### 📌 LoanPrediction
+
+  No description provided
+  
+  **Tech Stack:** Jupyter Notebook
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/LoanPrediction
+  
+  ---
+  
+  ### 📌 NYCTaxiTrip
+
+  No description provided
+  
+  **Tech Stack:** Jupyter Notebook
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/NYCTaxiTrip
+  
+  ---
+  
+  ### 📌 PTS
+
+  No description provided
+  
+  **Tech Stack:** C++
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/PTS
+  
+  ---
+  
+  ### 📌 ChessGame
+
+  No description provided
+  
+  **Tech Stack:** C++
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/ChessGame
+  
+  ---
+  
+  ### 📌 StudentManagementSystem
+
+  No description provided
+  
+  **Tech Stack:** Java
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/StudentManagementSystem
+  
+  ---
+  
+  ### 📌 SuperMobileAccessories
+
+  No description provided
+  
+  **Tech Stack:** PHP
+  
+  🔗 GitHub Repository: https://github.com/RasikhAli/SuperMobileAccessories
+  
+  ---
+  
+  <!-- LATEST_REPOS_END -->
 
 ---
 
