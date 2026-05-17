@@ -28,9 +28,10 @@ jobs:
         run: |
           echo "Fetching latest repositories..."
 
-          RESPONSE=$(curl -s -w "%{http_code}" "https://api.github.com/users/RasikhAli/repos?per_page=100")
-          HTTP_CODE="${RESPONSE: -3}"
-          BODY="${RESPONSE%???}"
+          RESPONSE=$(curl -s -w "\n%{http_code}" "https://api.github.com/users/RasikhAli/repos?per_page=100")
+
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
 
           echo "HTTP Status: $HTTP_CODE"
 
@@ -39,8 +40,10 @@ jobs:
             exit 1
           fi
 
+          # Validate JSON
           echo "$BODY" | jq '.' > /dev/null
 
+          # Get latest 5 repos excluding profile repo
           echo "$BODY" | jq -r '
             map(select(.name != "RasikhAli"))
             | sort_by(.updated_at)
@@ -65,7 +68,7 @@ jobs:
             🔗 GitHub Repository: ${URL}
             
             ---
-
+            
             "
           done < repos.json
 
