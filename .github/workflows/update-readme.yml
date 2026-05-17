@@ -28,9 +28,20 @@ jobs:
         run: |
           echo "Fetching latest repositories..."
 
-          REPOS=$(curl -s "https://api.github.com/users/RasikhAli/repos?per_page=100")
+          RESPONSE=$(curl -s -w "%{http_code}" "https://api.github.com/users/RasikhAli/repos?per_page=100")
+          HTTP_CODE="${RESPONSE: -3}"
+          BODY="${RESPONSE%???}"
 
-          echo "$REPOS" | jq -r '
+          echo "HTTP Status: $HTTP_CODE"
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "GitHub API failed"
+            exit 1
+          fi
+
+          echo "$BODY" | jq '.' > /dev/null
+
+          echo "$BODY" | jq -r '
             map(select(.name != "RasikhAli"))
             | sort_by(.updated_at)
             | reverse
@@ -46,7 +57,7 @@ jobs:
             LANG=$(echo "$row" | jq -r '.language // "N/A"')
 
             OUTPUT="${OUTPUT}### 📌 ${NAME}
-            
+
             ${DESC}
             
             **Tech Stack:** ${LANG}
@@ -54,7 +65,7 @@ jobs:
             🔗 GitHub Repository: ${URL}
             
             ---
-            
+
             "
           done < repos.json
 
