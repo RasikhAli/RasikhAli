@@ -42,16 +42,16 @@ jobs:
             LANG=$(echo "$repo" | jq -r '.language // "N/A"')
 
             OUTPUT="${OUTPUT}### 📌 ${NAME}
-
-${DESC}
-
-**Tech Stack:** ${LANG}
-
-🔗 GitHub Repository: ${URL}
-
----
-
-"
+            
+            ${DESC}
+            
+            **Tech Stack:** ${LANG}
+            
+            🔗 GitHub Repository: ${URL}
+            
+            ---
+            
+            "
           done
 
           echo "Generated section:"
