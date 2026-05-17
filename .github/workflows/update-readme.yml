@@ -28,39 +28,37 @@ jobs:
         run: |
           echo "Fetching latest repositories..."
 
-          RESPONSE=$(curl -s -w "\n%{http_code}" "https://api.github.com/users/RasikhAli/repos?per_page=100")
+          # SAFE FETCH (no HTTP mixing)
+          BODY=$(curl -s "https://api.github.com/users/RasikhAli/repos?per_page=100")
 
-          BODY=$(echo "$RESPONSE" | sed '$d')
-          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
-
-          echo "HTTP Status: $HTTP_CODE"
-
-          if [ "$HTTP_CODE" -ne 200 ]; then
-            echo "GitHub API failed"
+          # sanity check
+          if ! echo "$BODY" | jq empty; then
+            echo "Invalid JSON received from GitHub API"
+            echo "$BODY"
             exit 1
           fi
 
-          # Validate JSON
-          echo "$BODY" | jq '.' > /dev/null
+          OUTPUT=""
 
-          # Get latest 5 repos excluding profile repo
           echo "$BODY" | jq -r '
             map(select(.name != "RasikhAli"))
             | sort_by(.updated_at)
             | reverse
             | .[0:5][]
-          ' > repos.json
+            | @base64
+          ' | while read repo; do
 
-          OUTPUT=""
+            _jq() {
+              echo "$repo" | base64 --decode | jq -r "$1"
+            }
 
-          while read -r row; do
-            NAME=$(echo "$row" | jq -r '.name')
-            DESC=$(echo "$row" | jq -r '.description // "No description provided"')
-            URL=$(echo "$row" | jq -r '.html_url')
-            LANG=$(echo "$row" | jq -r '.language // "N/A"')
+            NAME=$(_jq '.name')
+            DESC=$(_jq '.description // "No description provided"')
+            URL=$(_jq '.html_url')
+            LANG=$(_jq '.language // "N/A"')
 
             OUTPUT="${OUTPUT}### 📌 ${NAME}
-
+            
             ${DESC}
             
             **Tech Stack:** ${LANG}
@@ -70,7 +68,7 @@ jobs:
             ---
             
             "
-          done < repos.json
+          done
 
           echo "Generated section:"
           echo "$OUTPUT"
