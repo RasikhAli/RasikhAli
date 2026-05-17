@@ -22,31 +22,45 @@ jobs:
           persist-credentials: true
 
       - name: Install jq
-        run: sudo apt-get install jq -y
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Fetch latest repos & build section
         run: |
-          echo "Fetching repos..."
+          echo "Fetching latest repositories..."
 
           REPOS=$(curl -s https://api.github.com/users/RasikhAli/repos?sort=updated&per_page=5)
 
           OUTPUT=""
 
-          echo "$REPOS" | jq -c '.[]' | while read repo; do
-            NAME=$(echo $repo | jq -r '.name')
-            DESC=$(echo $repo | jq -r '.description // "No description provided"')
-            URL=$(echo $repo | jq -r '.html_url')
-            LANG=$(echo $repo | jq -r '.language // "N/A"')
+          while read -r repo; do
+            NAME=$(echo "$repo" | jq -r '.name')
+            DESC=$(echo "$repo" | jq -r '.description // "No description provided"')
+            URL=$(echo "$repo" | jq -r '.html_url')
+            LANG=$(echo "$repo" | jq -r '.language // "N/A"')
 
-            OUTPUT="${OUTPUT}\n### 📌 ${NAME}\n\n${DESC}\n\n**Tech Stack:** ${LANG}\n\n🔗 GitHub Repository: ${URL}\n\n---\n"
-          done
+            OUTPUT="${OUTPUT}### 📌 ${NAME}
+
+            ${DESC}
+            
+            **Tech Stack:** ${LANG}
+            
+            🔗 GitHub Repository: ${URL}
+            
+            ---
+            
+            "
+          done < <(echo "$REPOS" | jq -c '.[]')
+
+          echo "Generated section:"
+          echo "$OUTPUT"
 
           awk -v new="$OUTPUT" '
           BEGIN {p=1}
           /<!-- LATEST_REPOS_START -->/ {
             print;
-            print new;
+            printf "%s", new;
             p=0;
+            next;
           }
           /<!-- LATEST_REPOS_END -->/ {
             p=1;
@@ -59,5 +73,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "🔄 Update latest repositories" || exit 0
+          git commit -m "🔄 Update latest repositories" || echo "No changes"
           git push
