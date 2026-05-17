@@ -24,7 +24,7 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-            - name: Fetch latest repos & build section
+      - name: Fetch latest repos & build section
         run: |
           echo "Fetching latest repositories..."
 
@@ -33,10 +33,10 @@ jobs:
           OUTPUT=""
 
           echo "$REPOS" | jq -r '
-            map(select(.name != "RasikhAli")) 
-            | sort_by(.updated_at) 
-            | reverse 
-            | .[0:5][] 
+            map(select(.name != "RasikhAli"))
+            | sort_by(.updated_at)
+            | reverse
+            | .[0:5][]
             | @base64
           ' | while read repo; do
 
@@ -50,7 +50,7 @@ jobs:
             LANG=$(_jq '.language // "N/A"')
 
             OUTPUT="${OUTPUT}### 📌 ${NAME}
-
+            
             ${DESC}
             
             **Tech Stack:** ${LANG}
