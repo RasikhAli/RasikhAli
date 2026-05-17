@@ -2,7 +2,7 @@ name: Update README with Latest Repos
 
 permissions:
   contents: write
-  
+
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -18,10 +18,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Install jq
+        run: sudo apt-get install jq -y
 
       - name: Fetch latest repos & build section
         run: |
-          echo "Fetching latest repositories..."
+          echo "Fetching repos..."
 
           REPOS=$(curl -s https://api.github.com/users/RasikhAli/repos?sort=updated&per_page=5)
 
@@ -36,10 +41,6 @@ jobs:
             OUTPUT="${OUTPUT}\n### 📌 ${NAME}\n\n${DESC}\n\n**Tech Stack:** ${LANG}\n\n🔗 GitHub Repository: ${URL}\n\n---\n"
           done
 
-          echo "Final Output:"
-          echo -e "$OUTPUT"
-
-          # Replace section in README
           awk -v new="$OUTPUT" '
           BEGIN {p=1}
           /<!-- LATEST_REPOS_START -->/ {
@@ -55,8 +56,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "🔄 Update latest repositories" || echo "No changes"
+          git commit -m "🔄 Update latest repositories" || exit 0
           git push
