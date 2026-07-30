@@ -1,313 +1,255 @@
-<h1 align="center">Rasikh Ali</h1>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/RasikhAli">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Gold+Medalist+%7C+Software+Engineer;Machine+Learning+Engineer+%7C+Python+Developer;Flask+%26+AI+Solutions+Specialist;Researcher+in+NLP+%26+Intelligent+Systems;Building+Scalable+and+Impactful+Applications;Exploring+LLMs+%2C+RAG+Systems+%26+AI+Agents" alt="Typing SVG" />
-  </a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:00BFFF&height=220&section=header&text=Rasikh%20Ali&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20ML%20Engineer%20%7C%20AI%20Solutions%20Specialist&descAlignY=58&descSize=18" width="100%"/>
 
-<p align="center">
-  <a href="https://github.com/RasikhAli">
-    <img src="https://img.shields.io/github/followers/RasikhAli?label=Followers&style=for-the-badge&color=0e75b6" />
-  </a>
+<a href="https://github.com/RasikhAli">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Gold+Medalist+%7C+Software+Engineer;Machine+Learning+Engineer+%7C+Python+Developer;Flask+%26+AI+Solutions+Specialist;Researcher+in+NLP+%26+Intelligent+Systems;Building+Scalable+and+Impactful+Applications;Exploring+LLMs%2C+RAG+Systems+%26+AI+Agents" alt="Typing SVG" />
+</a>
 
-  <a href="https://github.com/RasikhAli">
-    <img src="https://img.shields.io/github/stars/RasikhAli?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=0e75b6" />
-  </a>
+<br/>
 
-  <img src="https://komarev.com/ghpvc/?username=RasikhAli&style=for-the-badge&color=blue" alt="Profile Views" />
-</p>
+<a href="#-about-me"><img src="https://img.shields.io/badge/About-0e75b6?style=for-the-badge" /></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-0e75b6?style=for-the-badge" /></a>
+<a href="#-github-metrics"><img src="https://img.shields.io/badge/Metrics-0e75b6?style=for-the-badge" /></a>
+<a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-0e75b6?style=for-the-badge" /></a>
+<a href="#-lets-connect"><img src="https://img.shields.io/badge/Connect-0e75b6?style=for-the-badge" /></a>
 
----
+<br/><br/>
 
-# 👨‍💻 Professional Summary
+<img src="https://img.shields.io/github/followers/RasikhAli?label=Followers&style=for-the-badge&color=0e75b6&logo=github" />
+<img src="https://img.shields.io/github/stars/RasikhAli?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=0e75b6&logo=github" />
+<img src="https://komarev.com/ghpvc/?username=RasikhAli&style=for-the-badge&color=0e75b6" alt="Profile Views" />
+
+</div>
+
+<br/>
+
+## 🧑‍💻 About Me
+
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
 
 Passionate and results-driven **Software Engineer** specializing in **Machine Learning, Artificial Intelligence, Python Development, and Flask-based Web Applications**.
 
-Recognized as a **Gold Medalist in BS Software Engineering**, with hands-on experience in developing intelligent systems, scalable backend architectures, real-time AI solutions, and research-driven applications.
+Recognized as a **Gold Medalist in BS Software Engineering**, with hands-on experience building intelligent systems, scalable backend architectures, real-time AI solutions, and research-driven applications.
 
-Strong research background in **Natural Language Processing (NLP)** and intelligent automation, with continuous exploration in emerging technologies including **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, and **AI Agents**.
+Strong research background in **Natural Language Processing (NLP)** and intelligent automation — continuously exploring emerging technologies including **LLMs**, **Retrieval-Augmented Generation (RAG)**, and **AI Agents**.
 
----
-
-# 🏅 Key Achievements
-
-- 🎓 Gold Medalist in **BS Software Engineering**
-- 🧠 Machine Learning Engineer focused on real-world AI applications
-- 📚 Junior Lecturer with academic and industry exposure
-- 🏆 Solved **300+ coding problems** across competitive programming platforms
-- 📄 Published researcher in:
-  - Sarcasm Detection using NLP
-  - Customer Segmentation & Intelligent Analytics
-  - Predicting Heart Disease with Machine Learning
-- 🌱 Currently exploring:
-  - Large Language Models (LLMs)
-  - Retrieval-Augmented Generation (RAG)
-  - AI Agents & Intelligent Automation
-
----
-
-# 🎯 Current Focus
-
+**🎯 Currently focused on:**
 - Building AI-powered applications using LLMs
 - Developing scalable Flask-based systems
 - Exploring AI Agents and RAG pipelines
-- Research in NLP, ML and Intelligent Automation
 - Designing production-ready AI solutions
 
----
-
-# 🚀 Technical Skills
-
-## Programming Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,php,js" />
-</p>
-
----
-
-## AI / Machine Learning
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow" />
-</p>
-
-- Machine Learning
-- Deep Learning
-- Natural Language Processing (NLP)
-- Computer Vision
-- Predictive Analytics
-- Intelligent Automation
-
----
-
-## Web Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=flask,html,css,bootstrap,firebase,mysql,sqlite" />
-</p>
-
----
-
-## Tools & Platforms
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,pycharm,anaconda" />
-</p>
-
----
-
-# 📊 GitHub Metrics
-
-All sections below are generated by [`lowlighter/metrics`](https://github.com/lowlighter/metrics) via the workflow at `.github/workflows/metrics.yml`, and refresh automatically once a day.
-
-### Overview — header, activity, community, repositories, introduction, isometric calendar, achievements
-
-<p align="center">
-  <img src="./metrics.core.svg" alt="Core metrics" />
-</p>
-
-### Recent activity, calendar, repo traffic, notable contributions & follow-ups
-
-<p align="center">
-  <img src="./metrics.activity.svg" alt="Activity metrics" />
-</p>
-
-### Community — discussions, people I collaborate with, contributors, reactions
-
-<p align="center">
-  <img src="./metrics.community.svg" alt="Community metrics" />
-</p>
-
-### Repositories — stars, stargazers, star lists, topics, licenses, languages
-
-<p align="center">
-  <img src="./metrics.repositories.svg" alt="Repositories metrics" />
-</p>
-
-### Coding habits
-
-<p align="center">
-  <img src="./metrics.habits.svg" alt="Coding habits" />
-</p>
-
-### GitHub Skyline
-
-<p align="center">
-  <img src="./metrics.skyline.svg" alt="GitHub Skyline" />
-</p>
-
-### Leetcode & Steam
-
-<p align="center">
-  <img src="./metrics.social.svg" alt="Leetcode and Steam stats" />
-</p>
-
-### 16Personalities
-
-<p align="center">
-  <img src="./metrics.16personalities.svg" alt="16personalities profile" />
-</p>
-
-> ⚠️ **Setup notes:**
-> - Add a `METRICS_TOKEN` repo secret (a PAT with `repo` + `read:user` scopes) for the workflow to authenticate.
-> - Replace `YOUR_LEETCODE_USERNAME` in the workflow with your actual Leetcode handle.
-> - Add `STEAM_ID` and `STEAM_TOKEN` secrets for the Steam plugin.
-> - Add a `SIXTEEN_PERSONALITIES_URL` secret (your shared profile link from [16personalities.com](https://www.16personalities.com)) for the personality plugin.
-> - Until the workflow runs at least once, the images above will show as broken links.
-
----
-
-# 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 📚 Superior Academic Tool
-
-A web-based academic management platform designed to streamline timetable processing for students and faculty.
-
-**Tech Stack:** Python, Flask, HTML/CSS
-
-🔗 [Live Demo](https://superior-academic-tool.onrender.com/)
-
 </td>
+<td width="40%" valign="top">
 
-<td width="50%">
-
-### 🤖 Hadith Explorer Chatbot
-
-AI-powered chatbot enabling interactive exploration of Hadith collections with intelligent querying.
-
-**Tech Stack:** Python, Flask, AI
-
-🔗 [Live Demo](https://hadithbot.marveloussoft.tech/)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🧠 Face Profiling System
-
-AI-based personality prediction system using image processing and facial analysis.
-
-**Tech Stack:** OpenCV, Flask, Python
-
-🔗 [GitHub Repository](https://github.com/RasikhAli/Bitlogicx/tree/main/7.%20Face%20Profiling)
-
-</td>
-
-<td width="50%">
-
-### 📰 Sarcasm Detection in Headlines
-
-NLP-based deep learning model for sarcasm classification in news headlines.
-
-**Tech Stack:** Python, TensorFlow, NLP
-
-🔗 [GitHub Repository](https://github.com/RasikhAli/Sarcasm-Detection)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🐘 Animal Herd Detection & Alert System
-
-Real-time intelligent monitoring system for detecting animal herds and generating alerts.
-
-**Tech Stack:** Python, OpenCV, Machine Learning
-
-🔗 [GitHub Repository](https://github.com/RasikhAli/Bitlogicx/tree/main/3.%20AnimalHerd)
-
-</td>
-
-<td width="50%">
-
-### 🔳 QR Code Generator
-
-Advanced QR code generation platform with support for logos, colors, and custom backgrounds.
-
-**Tech Stack:** Flask, HTML, CSS
-
-🔗 [Live Demo](https://rasikhali.marveloussoft.tech/)
-🔗 [GitHub Repository](https://github.com/RasikhAli/QR-Code-Generator)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🌐 Web Monitor & Alert System
-
-Website monitoring solution that tracks content changes and sends secure email alerts.
-
-**Tech Stack:** Flask, Python, Email API
-
-🔗 [GitHub Repository](https://github.com/RasikhAli/Web-Monitor-and-Alert-System-using-Google-Email-App-Password)
-
-</td>
-
-<td width="50%">
-
-### 📈 Leads Extractor
-
-Automated lead extraction and management system using web scraping technologies.
-
-**Tech Stack:** Python, Flask, Web Scraping
-
-🔗 [GitHub Repository](https://github.com/RasikhAli/Leads-Extractor)
+> 🎓 **Gold Medalist** — BS Software Engineering
+>
+> 🧠 **Machine Learning Engineer** — real-world AI applications
+>
+> 📚 **Junior Lecturer** — academic + industry exposure
+>
+> 🏆 **300+** coding problems solved
+>
+> 📄 **Published research:**
+> - Sarcasm Detection using NLP
+> - Customer Segmentation & Intelligent Analytics
+> - Predicting Heart Disease with ML
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-# 🔬 Research & Interests
+## 🚀 Tech Stack
 
-- Artificial Intelligence
-- Machine Learning
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Natural Language Processing
-- Intelligent Automation
-- Computer Vision
-- AI Agents
-- Scalable Backend Systems
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
----
+**Languages**
 
-# 🌐 Connect With Me
+<img src="https://skillicons.dev/icons?i=python,java,cpp,php,js" />
 
-<p align="center">
+**AI / Machine Learning**
 
-  <a href="https://rasikhali.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a>
+<img src="https://skillicons.dev/icons?i=tensorflow" /><br/>
+`Machine Learning` `Deep Learning` `NLP` `Computer Vision` `Predictive Analytics`
 
-  <a href="https://www.linkedin.com/in/rasikh-ali/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+</td>
+<td width="50%" valign="top">
 
-  <a href="https://github.com/RasikhAli" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+**Web Development**
 
-  <a href="mailto:rasikhali1234@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<img src="https://skillicons.dev/icons?i=flask,html,css,bootstrap,firebase,mysql,sqlite" />
 
-</p>
+**Tools & Platforms**
 
----
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,pycharm,anaconda" />
 
-<p align="center">
-  <i>"Transforming ideas into intelligent digital solutions through AI and Software Engineering."</i>
-</p>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 📊 GitHub Metrics
+
+<sub>Generated by <a href="https://github.com/lowlighter/metrics"><code>lowlighter/metrics</code></a> via <code>.github/workflows/metrics.yml</code> · refreshes daily</sub>
+
+<div align="center">
+
+**Overview** — header, activity, community, repositories, achievements
+<img src="./metrics.core.svg" width="100%" alt="Core metrics" />
+
+<table width="100%">
+<tr>
+<td width="50%">
+
+**Recent Activity**
+<img src="./metrics.activity.svg" width="100%" alt="Activity metrics" />
+
+</td>
+<td width="50%">
+
+**Community**
+<img src="./metrics.community.svg" width="100%" alt="Community metrics" />
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Repositories**
+<img src="./metrics.repositories.svg" width="100%" alt="Repositories metrics" />
+
+</td>
+<td width="50%">
+
+**Leetcode & Steam**
+<img src="./metrics.social.svg" width="100%" alt="Leetcode and Steam stats" />
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+## 🎯 Featured Projects
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Superior Academic Tool
+Web-based academic management platform streamlining timetable processing for students and faculty.
+
+**Stack:** Python · Flask · HTML/CSS
+🔗 [Live Demo](https://superior-academic-tool.onrender.com/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 Hadith Explorer Chatbot
+AI-powered chatbot for interactive, intelligent exploration of Hadith collections.
+
+**Stack:** Python · Flask · AI
+🔗 [Live Demo](https://hadithbot.marveloussoft.tech/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 Face Profiling System
+AI-based personality prediction using image processing and facial analysis.
+
+**Stack:** OpenCV · Flask · Python
+🔗 [Repository](https://github.com/RasikhAli/Bitlogicx/tree/main/7.%20Face%20Profiling)
+
+</td>
+<td width="50%" valign="top">
+
+### 📰 Sarcasm Detection in Headlines
+NLP-based deep learning model for sarcasm classification in news headlines.
+
+**Stack:** Python · TensorFlow · NLP
+🔗 [Repository](https://github.com/RasikhAli/Sarcasm-Detection)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐘 Animal Herd Detection & Alert System
+Real-time intelligent monitoring system for detecting animal herds and generating alerts.
+
+**Stack:** Python · OpenCV · ML
+🔗 [Repository](https://github.com/RasikhAli/Bitlogicx/tree/main/3.%20AnimalHerd)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔳 QR Code Generator
+Advanced QR generator with support for logos, colors, and custom backgrounds.
+
+**Stack:** Flask · HTML · CSS
+🔗 [Live Demo](https://rasikhali.marveloussoft.tech/) · [Repository](https://github.com/RasikhAli/QR-Code-Generator)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 Web Monitor & Alert System
+Website monitoring solution tracking content changes with secure email alerts.
+
+**Stack:** Flask · Python · Email API
+🔗 [Repository](https://github.com/RasikhAli/Web-Monitor-and-Alert-System-using-Google-Email-App-Password)
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 Leads Extractor
+Automated lead extraction and management system using web scraping.
+
+**Stack:** Python · Flask · Web Scraping
+🔗 [Repository](https://github.com/RasikhAli/Leads-Extractor)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🔬 Research & Interests
+
+<div align="center">
+
+`Artificial Intelligence` `Machine Learning` `LLMs` `RAG` `NLP` `Intelligent Automation` `Computer Vision` `AI Agents` `Scalable Backend Systems`
+
+</div>
+
+<br/>
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+<a href="https://rasikhali.github.io/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/rasikh-ali/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/RasikhAli" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:rasikhali1234@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<br/><br/>
+
+<i>"Transforming ideas into intelligent digital solutions through AI and Software Engineering."</i>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:0e75b6&height=100&section=footer" width="100%"/>
+
+</div>
