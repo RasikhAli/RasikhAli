@@ -24,8 +24,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_achievements: yes
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: detailed
+          # plugin_achievements_secrets: yes
+          # plugin_achievements_display: detailed
           config_timezone: Asia/Karachi
 
   # ────────────────────────────────────────────────────────────────
@@ -143,8 +143,8 @@ jobs:
           plugin_leetcode_user: rasikhali1234
           plugin_leetcode_sections: heatmap, ranking, stats
           plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: ${{ secrets.STEAM_ID }}
-          plugin_steam_key: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_sections: recent, badges
 
   # ────────────────────────────────────────────────────────────────
