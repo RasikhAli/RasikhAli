@@ -140,7 +140,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_leetcode: yes
-          plugin_leetcode_user: YOUR_LEETCODE_USERNAME
+          plugin_leetcode_user: rasikhali1234
           plugin_leetcode_sections: heatmap, ranking, stats
           plugin_steam: yes
           plugin_steam_user: ${{ secrets.STEAM_ID }}
